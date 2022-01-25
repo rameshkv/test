@@ -16,7 +16,6 @@ export default {
   },
   methods: {
     createOrUpdate: async function(project) {
-      console.log("--project--", project);
       const res = await api.createProject(project);
       Vue.$toast.success(res.message);
       this.$router.push(`/project/`);

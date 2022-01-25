@@ -48,18 +48,6 @@ export default new Router({
         path: '/assign-employee/:id',
         name: 'assign-form',
         component: AssignEmp
-    },
-
-    /* {
-      path: '/tasks/:id',
-      name: 'show',
-      component: Show
-    },
-    {
-      path: '/tasks/:id/edit',
-      name: 'edit',
-      component: Edit
-    }*/
-   
+    }
   ]
 });

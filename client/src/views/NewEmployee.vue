@@ -16,7 +16,6 @@ export default {
   },
   methods: {
     createOrUpdate: async function(emp) {
-      console.log("--employee--", emp);
       const res = await api.createEmployee(emp);
       Vue.$toast.success(res.message);
       this.$router.push(`/employee/`);

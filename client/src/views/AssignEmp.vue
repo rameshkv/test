@@ -55,7 +55,6 @@ export default {
         event.preventDefault()
         delete this.project.employee
         this.project.employee = this.empName
-        console.log(this.project);
         let res =  await api.updateProject(this.project);
         Vue.$toast.success(res.message);
         this.$router.push(`/project/`);
@@ -65,7 +64,6 @@ export default {
     async mounted() {
        this.project = await api.getProjectById(this.$route.params.id);
        this.empName = this.project.employee;
-       console.log(this.project)
        this.form.id = this.$route.params.id;
        let user =  await api.getEmployee();
        for(let i in user) {

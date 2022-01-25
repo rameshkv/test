@@ -24,7 +24,7 @@ module.exports = class Project {
         this.name = name;
         this.description = description;
         this.start_date = start_date;
-        this.employee = (employee.length>0)?employee:[];
+        this.employee = (employee && employee.length>0)?employee:[];
     }
 
     save() {

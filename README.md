@@ -30,5 +30,11 @@ npm run serve
    Once application built successful, Please launch the application by the following URL
    
    http://localhost:8080/
+   
+   
+### Unit Test
+```
+npm run test:unit
+```
 
 

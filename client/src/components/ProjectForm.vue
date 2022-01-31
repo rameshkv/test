@@ -46,8 +46,17 @@
 
 <script>
 import Vue from 'vue'
+import { BCard, BForm, BFormGroup, BFormInput, BFormDatepicker, BButton } from 'bootstrap-vue'
   export default {
    name: 'project-form',
+   components: {
+    BCard,
+    BForm,
+    BFormGroup,
+    BFormInput,
+    BFormDatepicker,
+    BButton
+   },
    props: {
     form: {
       type: Object,

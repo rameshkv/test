@@ -31,8 +31,18 @@
 <script>
 import { api } from '../helpers/helpers';
 import Vue from 'vue'
+import { BCard, BForm, BFormGroup, BFormInput, BFormDatepicker, BButton, BFormSelect } from 'bootstrap-vue'
 export default {
    name: 'assign-form',
+   components: {
+    BCard,
+    BForm,
+    BFormGroup,
+    BFormInput,
+    BFormDatepicker,
+    BButton,
+    BFormSelect
+   },
    props: {
     form: {
       type: Object,

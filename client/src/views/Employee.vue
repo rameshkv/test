@@ -21,8 +21,13 @@
 
 <script>
 import { api } from '../helpers/helpers';
+import { BTable } from 'bootstrap-vue'
+
 export default {
   name: 'employee',
+    components: {
+    BTable
+  },
   data() {
     return {
         items: [],

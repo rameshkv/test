@@ -40,8 +40,16 @@
 </template>
 
 <script>
+import { BCard, BForm, BFormGroup, BFormInput, BButton } from 'bootstrap-vue'
   export default {
    name: 'employee-form',
+   components: {
+    BCard,
+    BForm,
+    BFormGroup,
+    BFormInput,
+    BButton
+   },
    props: {
     form: {
       type: Object,

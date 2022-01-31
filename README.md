@@ -1,4 +1,4 @@
-# How to run the application? Please do the following steps.
+# How to run the application? Please enter the following steps.
 
 # To start the server
 1. Go to "server" folder run the following command in CLI/terminal
